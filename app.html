@@ -7,14 +7,19 @@
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-<img class="align-center" alt="logo" src="image-removebg-preview.png" onclick="playAudio()"/>
-<div >
-    <audio id="myAudio">
-        <source src="src/dog_barking.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <button onclick="playAudio()">Play Sound</button>
-</div>
+    <header>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <img class="site-name" alt="logo" src="image-removebg-preview.png" onclick="playAudio()"/>
+    </header>
+
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Friends</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Log Out</a></li>
+        </ul>
+    </nav>
 <div>
 
 </div>
