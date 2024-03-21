@@ -86,3 +86,68 @@ main {
 .sidebar a:hover {
     background-color: #3E8C47;
 }
+
+#headerRoute {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.back-arrow {
+    /* Add your back arrow icon here */
+}
+
+.title {
+    font-size: 1.2rem;
+}
+
+.dropdown-icon {
+    /* Add your dropdown menu icon here */
+}
+
+/* Route card styles */
+.route-card {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.route-image {
+    width: 80px;
+    height: 80px;
+    margin-right: 1rem;
+    /* Add background image or image source here */
+}
+.route-image-tag{
+    width: 80px;
+    height: 80px;
+    margin-right: 1rem;
+}
+.route-details {
+    flex: 1;
+}
+
+.route-name {
+    font-weight: bold;
+}
+
+.route-info {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+/* Start walk button */
+.start-walk-button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
